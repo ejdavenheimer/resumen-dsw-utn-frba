@@ -1,0 +1,10 @@
+# Materiales fuente — NO publicar por derechos de autor
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.key
+
+# Sistema
+.DS_Store
