@@ -5,6 +5,10 @@
 *.doc
 *.docx
 *.key
+*.xlsx
+*.csv
+# Material de la cátedra dentro de js/content/ (cronograma sin extensión, etc.)
+js/content/cronograma
 
 # Sistema
 .DS_Store

@@ -38,8 +38,9 @@
           <p>Más flexibles, para grandes volúmenes y estructuras no tabulares. Priorizan <b>escalabilidad y
           velocidad</b>.</p></div>
         </div>
-        <p>Tipos de NoSQL: <b>Documentales</b> (MongoDB), <b>Clave-Valor</b> (Redis), <b>Columnares</b>
-        (Cassandra), <b>Grafos</b> (Neo4j).</p>
+        <p>Tipos de NoSQL: <b>Documentales</b> (MongoDB), <b>Clave-Valor</b> (Redis/DynamoDB), <b>Columnares</b>
+        (Cassandra), <b>Grafos</b> (Neo4j) y <b>Orientadas a objetos</b> (persisten el objeto tal cual, con
+        herencia y encapsulamiento). MongoDB es <b>escalable horizontalmente</b>.</p>
 
         <div class="callout info"><p><b>Teorema CAP:</b> en un sistema distribuido es imposible garantizar a la vez
         <b>Consistencia</b>, <b>Disponibilidad</b> (Availability) y <b>Tolerancia a particiones</b>. Hay que resignar

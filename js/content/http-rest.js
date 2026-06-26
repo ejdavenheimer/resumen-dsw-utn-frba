@@ -51,6 +51,10 @@
         actual (ej. registrar un email que ya existe, o comprar sin stock).</p></div>
 
         <h2>API REST · los principios</h2>
+        <p>Una <b>API</b> (Application Programming Interface) es el conjunto de protocolos que permite que dos
+        servicios se comuniquen <b>sin conocer cómo está implementado el otro por dentro</b>. La <b>arquitectura
+        web</b> son los principios que definen cómo se organizan y comunican esos componentes. <b>REST</b> es un
+        estilo para diseñar esas APIs sobre HTTP:</p>
         <ul>
           <li><b>Recursos</b>: todo es un recurso con una <b>URI única</b>. Rutas con <b>sustantivos en plural</b>
           (<code>/libros</code>), <b>nunca verbos</b> (mal: <code>/getLibros</code>). Lo viste en el playground:

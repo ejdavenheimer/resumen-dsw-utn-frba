@@ -34,6 +34,10 @@
           <div class="card"><h3 style="margin-top:0">⏱️ Latencia y timeouts</h3>
           <p>Con mucha latencia una petición puede fallar por <b>timeout</b>. Se implementan
           <b>reintentos</b> (automáticos o manuales).</p></div>
+          <div class="card"><h3 style="margin-top:0">🔒 Pantalla cautiva</h3>
+          <p>No deja al usuario moverse hasta que termina un proceso de negocio que debe ser sincrónico
+          (ej. "Enviar transferencia" en MP). Ojo: que el <i>negocio</i> sea sincrónico no implica que las
+          <i>llamadas</i> al back lo sean.</p></div>
         </div>
 
         <h2>Gestión de usuarios</h2>

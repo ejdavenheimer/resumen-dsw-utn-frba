@@ -23,6 +23,10 @@
             <tr><td><b>MVVM</b><br>Modelo-Vista-VistaModelo</td><td>El <b>ViewModel</b> expone datos y comandos a la vista con <b>data binding</b> (sincronización automática UI↔datos).</td><td>Frameworks declarativos: Angular, Vue.</td></tr>
           </tbody>
         </table></div>
+        <div class="callout info"><p><b>Para conectar con lo visto:</b> el <b>Modelo</b> de MVC se corresponde con
+        el <b>Dominio + Repositorio</b> del backend, y la Vista suele comunicarse con <b>DTOs</b>. El
+        <b>data binding</b> del MVVM puede ser <b>bidireccional</b> (la UI cambia los datos y viceversa) o
+        <b>unidireccional</b> (los datos solo van del modelo a la vista).</p></div>
 
         <h2>Tipos de renderizado</h2>
         <div class="grid-2">

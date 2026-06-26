@@ -30,13 +30,16 @@
 
         <h3>Tipos de servicio (cuánto gestiona el proveedor)</h3>
         <div class="table-wrap"><table class="data">
-          <thead><tr><th>Modelo</th><th>Qué ofrece</th><th>Ejemplo</th></tr></thead>
+          <thead><tr><th>Modelo</th><th>Qué ofrece</th><th>🍕 Analogía pizza</th></tr></thead>
           <tbody>
-            <tr><td><b>IaaS</b></td><td>Infraestructura básica (VMs, almacenamiento, redes); control total del cliente.</td><td>AWS EC2</td></tr>
-            <tr><td><b>PaaS</b></td><td>Plataforma para desarrollar y ejecutar apps sin gestionar la infraestructura.</td><td>Vercel, Heroku</td></tr>
-            <tr><td><b>SaaS</b></td><td>Aplicaciones listas para usar por internet.</td><td>Gmail, Office 365</td></tr>
+            <tr><td><b>IaaS</b></td><td>Infraestructura básica (VMs, almacenamiento, redes); control total del cliente. Ej: AWS EC2.</td><td>Alquilo la pizzería: me dan horno e ingredientes, pero la pizza la hago yo.</td></tr>
+            <tr><td><b>PaaS</b></td><td>Plataforma para desarrollar y ejecutar apps sin gestionar la infraestructura. Ej: Vercel, Heroku.</td><td>Me dan horno, ingredientes <b>y la receta</b>; solo cocino.</td></tr>
+            <tr><td><b>SaaS</b></td><td>Aplicaciones listas para usar por internet. Ej: Gmail, Office 365.</td><td>Pido la pizza hecha y solo la como.</td></tr>
           </tbody>
         </table></div>
+        <div class="callout info"><p><b>La infraestructura puede ser:</b> <b>real</b> (servidores físicos) ·
+        <b>programable</b> ("creame una VM con X RAM, Y CPU") · <b>backing services</b> (crear una BD, backups,
+        monitoreo).</p></div>
 
         <h2>Ambientes (entornos)</h2>
         <p>Distintas infraestructuras para las fases del ciclo de vida:</p>
@@ -49,7 +52,8 @@
         <h2>Virtualización y contenedores</h2>
         <div class="grid-2">
           <div class="card"><h3 style="margin-top:0">🖥️ Máquinas Virtuales (VMs)</h3>
-          <p>Virtualizan un <b>hardware completo</b>, incluyendo su propio sistema operativo. Más pesadas.</p></div>
+          <p>Virtualizan un <b>hardware completo</b>: cada VM puede tener su propio SO. Un
+          <b>hypervisor</b> le "muestra" a cada VM el hardware simulado. Más pesadas; podés correr varias.</p></div>
           <div class="card"><h3 style="margin-top:0">📦 Contenedores (Docker)</h3>
           <p>Virtualizan el <b>sistema operativo</b>: múltiples apps aisladas comparten el mismo kernel.
           Mucho más livianos y rápidos que las VMs.</p></div>
